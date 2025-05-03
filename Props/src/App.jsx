@@ -1,14 +1,12 @@
-import CompoA from './Props/CompoA';
-let App = ()=>{
-
-return <div>
-            <h1>App Componet</h1>
-            <hr/>
-            <CompoA/>
-           
-       </div>
-
+import React from 'react';
+import Message from './stateex/Msg';
+function App() {
+    return (
+        <div>
+          <h3>App components</h3>
+          <hr />
+          <Message/> 
+        </div>
+    )
 }
-
-
 export default App;
