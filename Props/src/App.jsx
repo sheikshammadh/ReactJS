@@ -1,19 +1,15 @@
 import React from 'react';
-import CompA from './Props/User';
-import Emp from './Props/Emp';
 import User from './Props/User';
-import Message from './stateex/Msg';
+import Message from './state.example/Msg';
+import Logform from './state.example/btn';
 function App() {
     return (
         <div>
           <h3>App components</h3>
           <hr />
-          <><User/><Message/></>
+          <><User/><Message/><Logform/></>
           
         </div>
     )
 }
 export default App;
-
-
-
