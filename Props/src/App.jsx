@@ -4,6 +4,7 @@ import Forms from './forms/form';
 import User from './Props/User';
 import Employee from './State2/Employee';
 import Handlers from './State2/Hndalers';
+import Employ from './List Rendering/Listrend';
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
           <User/>
           <Employee/>
           <Handlers/>
+          <Employ/>
           </>
         </div>
     )
