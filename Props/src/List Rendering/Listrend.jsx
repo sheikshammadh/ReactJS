@@ -1,4 +1,5 @@
 let Employ=()=>{
+    let empl=empl.get('')
 let Employees=[
     {eid:101,ename:"Nandu",esal:54000},
     {eid:102,ename:"Shyam",esal:34000},
@@ -24,7 +25,6 @@ return <>
                 <td>{empl.esal}</td>
             </tr>
         })}
-        
     </tbody>
 </table>
 </>
