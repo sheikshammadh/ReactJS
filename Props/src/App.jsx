@@ -5,6 +5,9 @@ import User from './Props/User';
 import Employee from './State2/Employee';
 import Handlers from './State2/Hndalers';
 import Employ from './List Rendering/Listrend';
+import Users from './List Rendering/Users';
+
+
 
 function App() {
     return (
@@ -18,6 +21,7 @@ function App() {
           <Employee/>
           <Handlers/>
           <Employ/>
+          <Users/>
           </>
         </div>
     )

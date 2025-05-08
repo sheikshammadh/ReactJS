@@ -1,3 +1,6 @@
+{/*Displaying data in the form of table or list.*/}
+{/*By using passing unique key value.*/}
+
 let Employ=()=>{
     let empl=empl.get('')
 let Employees=[
