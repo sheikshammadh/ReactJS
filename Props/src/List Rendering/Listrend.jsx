@@ -18,7 +18,7 @@ let Employ = () => {
           </thead>
           <tbody>
             {Employees.map((emp) => (
-              <tr key={emp.eid}> {/* must have a unique value */}
+              <tr key={emp.eid}> {/* must have a unique key value */}
                 <td>{emp.eid}</td>
                 <td>{emp.ename}</td>
                 <td>{emp.esal}</td>

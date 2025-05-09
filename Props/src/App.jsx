@@ -6,6 +6,8 @@ import Employee from './State2/Employee';
 import Handlers from './State2/Hndalers';
 import Employ from './List Rendering/Listrend';
 import Users from './List Rendering/Users';
+import UsersData from './Lifecycle/Lifecycle';
+// import Logindet from './forms/FormDet';
 
 function App() {
     return (
@@ -15,11 +17,13 @@ function App() {
           <>
           <CompA/>
           <Forms/>
+          <Logindet/>
           <User/>
           <Employee/>
           <Handlers/>
           <Employ/>
           <Users/>
+          <UsersData/>
           </>
         </div>
     )
