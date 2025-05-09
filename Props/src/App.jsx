@@ -7,8 +7,6 @@ import Handlers from './State2/Hndalers';
 import Employ from './List Rendering/Listrend';
 import Users from './List Rendering/Users';
 
-
-
 function App() {
     return (
         <div>
