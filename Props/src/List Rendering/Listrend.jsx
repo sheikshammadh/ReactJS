@@ -30,5 +30,5 @@ let Employ = () => {
     );
   };
   
-  export default Employ;
+export default Employ;
   

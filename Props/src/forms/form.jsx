@@ -1,16 +1,28 @@
 import { useState } from "react";
 
-let Forms= ()=>{
-  let[user,setUser]=useState[{}]
-  let[]=useState[{}]
+const Forms = () => {
 
-  return <div>
-          <h4>Login Details</h4>
-          <form >
-          EmailId:  <input type="text" onInput={emailhandler}/>  <br /> <br />
-          Password: <input type="password" /> <br /> <br />
-          <input type="submit" value={"Login"} />
-          </form>
-          </div>
-}
+  let [user, setUser] = useState({});
+
+  const emailHandler = (event) => {
+    setUser({ ...user, email: event.target.value });
+  };
+
+  const submitHandler = (event) => {
+    event.preventDefault(); 
+    console.log(user); 
+  };
+
+  return (
+    <div>
+      <h4>Login Details</h4>
+      <form onSubmit={submitHandler}>
+        EmailId: <input type="text" onInput={emailHandler} /> <br /> <br />
+        Password: <input type="password" /> <br /> <br />
+        <input type="submit" value="Login" />
+      </form>
+    </div>
+  );
+};
+
 export default Forms;
