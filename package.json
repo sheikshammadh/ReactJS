@@ -1,6 +1,9 @@
 {
   "dependencies": {
+    "@redux-devtools/extension": "^3.3.0",
     "create": "^0.5.5",
+    "react-redux": "^9.2.0",
+    "redux": "^5.0.1",
     "vite": "^6.3.4"
   }
 }
