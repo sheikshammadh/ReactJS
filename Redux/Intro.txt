@@ -1,0 +1,17 @@
+installing dependencies:
+
+
+npm install redux. 
+            @redux-devtool
+            react-redux
+
+install che=rome extension ie,
+    redux devtools
+
+create Folder structure.          
+                      
+                      
+react appl →      action  →      reducer
+                                    
+                     store
+
