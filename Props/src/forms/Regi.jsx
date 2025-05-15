@@ -26,4 +26,3 @@ let Registration = () => {
 };
 
 
-export default Registration;
