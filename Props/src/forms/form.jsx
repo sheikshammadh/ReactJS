@@ -5,7 +5,7 @@ const Forms = () => {
   let [user, setUser] = useState({});
 
   const emailHandler = (event) => {
-    setUser({ ...user, email: event.target.value });
+    setUser({ ...user, email: event.target.value ,password:event.target.value});
   };
 
   const submitHandler = (event) => {
@@ -21,6 +21,7 @@ const Forms = () => {
         Password: <input type="password" /> <br /> <br />
         <input type="submit" value="Login" />
       </form>
+      <h4>{JSON.stringify(user)}</h4>
     </div>
   );
 };
